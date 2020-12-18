@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>index</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap">
+  <script src="https://kit.fontawesome.com/ce2a36e089.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+  <div class="content_wrapper">
+    <header class="header">
+      <img class="logo" src="images/logo/ohmyfood@2x.svg" alt="logo de ohmyfood" />
+    </header>
+    <aside class="location">
+      <div class="location_wrapper">
+        <i class="fas fa-map-marker-alt"></i>
+        <input type="search" name="location_bar" class="location_wrapper--bar" placeholder="Paris, Belleville" />
+      </div>
+    </aside>
+    <div class="heading">
+      <h1>Réservez le menu qui vous convient</h1>
+      <p>Découvrez des restaurants d'exception,selectionnés par nos soins.</p>
+      <div class="btn">
+        <a href="#restaurant">Explorer nos restaurants</a>
+      </div>
+    </div>
+    <section class="operation">
+      <h2>Fonctionnement</h2>
+      <ol>
+        <li><i class="fas fa-mobile-alt"></i>Choisissez un restaurant </li>
+        <li><i class="fas fa-list"></i> Composez votre menu</li>
+        <li><i class="fas fa-store"></i> Dégustez au restaurant</li>
+      </ol>
+    </section>
+    <main>
+      <section class="restaurant" id="restaurant">
+        <h2 class="restaurant_title">Restaurants</h2>
+        <article>
+          <a href="menu/menu1.html">
+            <figure>
+              <span>Nouveau</span>
+              <img src="images/restaurants/la_palette_du_gout.jpg" alt="la palette du goût" />
+              <figcaption>
+                <div class="figc">
+                  <h3>La palette du goût</h3>
+                  <p>Ménilemontant</p>
+                </div>
+                <i class="far fa-heart like"></i>
+              </figcaption>
+            </figure>
+          </a>
+        </article>
+        <article>
+          <a href="menu/menu2.html">
+            <figure>
+              <span>Nouveau</span>
+              <img class="restaurant_card_img" src="images/restaurants/la_note_enchantee.jpg" alt="la note enchantée" />
+              <figcaption>
+                <div class="figc">
+                  <h3>La note enchantée</h3>
+                  <p>Charonne</p>
+                </div>
+                <i class="far fa-heart like"></i>
+              </figcaption>
+            </figure>
+          </a>
+        </article>
+        <article>
+          <a href="menu/menu3.html">
+            <figure class="restaurant_card_figure">
+              <img class="restaurant_card_img" src="images/restaurants/a_la_francaise.jpg" alt="À la française" />
+              <figcaption>
+                <div class="figc">
+                  <h3>À la française</h3>
+                  <p>Cité Rouge</p>
+                </div>
+                <i class="far fa-heart like"></i>
+              </figcaption>
+            </figure>
+          </a>
+        </article>
+        <article>
+          <a href="menu/menu4.html">
+            <figure>
+              <img class="restaurant_card_img" src="images/restaurants/le_delice_des_sens.jpg"
+                alt="Le délice des sens" />
+              <figcaption>
+                <div class="figc">
+                  <h3>Le délice des sens</h3>
+                  <p>Folie-Méricourt</p>
+                </div>
+                <i class="far fa-heart like"></i>
+              </figcaption>
+            </figure>
+          </a>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <h1 class="footer_title">ohmyfood</h1>
+        </li>
+        <li><a href="#"><i class="fas fa-utensils fas ustensils"></i>Proposer un restaurant</a></li>
+        <li><a href="#"><i class="fas fa-hands-helping helping"></i>Devenir Partenaire</a></li>
+        <li><a href="#">Mentions légales</a></li>
+        <li> <a href="mailto:ohmyfood@mail.com">Contact</a></li>
+      </ul>
+
+    </footer>
+  </div>
+</body>
+
+</html>
