@@ -173,7 +173,6 @@ p {
   top: 50%;
   width: 150px;
   height: 150px;
-  stroke-linecap: round;
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
@@ -524,6 +523,7 @@ header {
   background-color: #fff;
   margin: 16px;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .content_restaurant h2 {
@@ -577,7 +577,7 @@ header {
   border-radius: 0 24px 24px 0;
   right: inherit;
   bottom: inherit;
-  transition: ease-out 1s;
+  transition: ease-out 0.5s;
   background-color: var(--tertiary-color);
   width: 0;
   overflow: hidden;
