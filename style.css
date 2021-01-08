@@ -304,17 +304,17 @@ header {
   flex-direction: column;
   text-align: center;
   background-color: #f6f6f6;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 .heading h1 {
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 1.2em;
   margin: 32px auto;
   width: 70%;
 }
 .heading p {
-  margin: 32px;
-  font-size: 1.5em;
+  margin-bottom: 32px;
+  font-size: 1em;
 }
 /*bouton*/
 .btn {
@@ -329,7 +329,7 @@ header {
   background: linear-gradient(to top, #9356dc, #ff79da);
   padding: 24px;
   color: #fff;
-  font-size: 1.6em;
+  font-size: 1.5em;
   align-self: center;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24);
   transition: ease-in-out 0.4s;
@@ -573,7 +573,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
   border-radius: 0 24px 24px 0;
   right: inherit;
   bottom: inherit;
@@ -668,6 +667,53 @@ footer a:hover {
   padding-right: 18px;
 }
 /*breakpoints*/
+@media only screen and (max-width: 440px) {
+  .operation ol li {
+    font-size: 0.8em;
+  }
+  .operation li i {
+    margin: 16px;
+  }
+  .btn a {
+    font-size: 1em;
+  }
+  .restaurant article {
+    max-height: 290px;
+  }
+  .title {
+    font-size: 1.3em;
+  }
+  .menu_wrapper h3 {
+    font-size: 0.9em;
+  }
+  .title h1 {
+    font-size: 0.8em;
+  }
+  .coment {
+    font-size: 0.8em;
+  }
+  .menu_title {
+    font-size: 0.8em;
+  }
+  .restaurant figure span {
+    font-size: 0.7em;
+  }
+  .restaurant h3 {
+    font-size: 1em;
+  }
+  .figc p {
+    font-size: 0.8em;
+  }
+  .like {
+    font-size: 1em;
+  }
+  .title .like {
+    font-size: 0.7em;
+  }
+  .menu h2::after {
+    width: 35px;
+  }
+}
 /*tablette*/
 
 @media screen and (min-width: 768px) {
@@ -679,7 +725,6 @@ footer a:hover {
     display: inline-flex;
   }
   .operation ol li {
-    flex: 1;
     margin: 32px;
   }
   .photo {
@@ -691,9 +736,20 @@ footer a:hover {
     width: 45%;
     max-width: 550px;
   }
+  .heading p {
+    font-size: 1.4em;
+  }
+  .heading h1 {
+    font-size: 1.6em;
+  }
 }
 /*laptop*/
 @media screen and (min-width: 1024px) {
+  .operation ol li {
+    flex: 1;
+    font-size: 0.85em;
+    font-weight: bold;
+  }
   .restaurant {
     row-gap: 32px;
   }
@@ -709,9 +765,18 @@ footer a:hover {
   .photo {
     max-height: 500px;
   }
+  .heading p {
+    font-size: 1.6em;
+  }
+  .heading h1 {
+    font-size: 2em;
+  }
 }
 /*desktop*/
 @media screen and (min-width: 1440px) {
+  .operation ol li {
+    font-size: 1em;
+  }
   .content_wrapper,
   .main_menu {
     max-width: 1440px;
