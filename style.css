@@ -269,6 +269,8 @@ header {
 .arrow {
   padding-right: 30px;
   font-size: 35px;
+  position: relative;
+  right: 50px;
 }
 /*aside*/
 /*barre de localisation*/
@@ -308,7 +310,7 @@ header {
 }
 .heading h1 {
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1.4em;
   margin: 32px auto;
   width: 70%;
 }
@@ -329,7 +331,7 @@ header {
   background: linear-gradient(to top, #9356dc, #ff79da);
   padding: 24px;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.7em;
   align-self: center;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24);
   transition: ease-in-out 0.4s;
@@ -339,8 +341,11 @@ header {
   opacity: 0.8;
 }
 .btn_menu {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  width: 250px;
 }
 /*Fonctionnement*/
 .operation {
@@ -667,13 +672,20 @@ footer a:hover {
   padding-right: 18px;
 }
 /*breakpoints*/
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 767px) {
+  .restaurant figure img {
+    height: 150px;
+  }
   .operation ol li {
     font-size: 0.8em;
   }
   .operation li i {
     margin: 16px;
   }
+  .location_wrapper--bar {
+    font-size: 0.5em;
+  }
+
   .btn a {
     font-size: 1em;
   }
@@ -713,7 +725,21 @@ footer a:hover {
   .menu h2::after {
     width: 35px;
   }
+  .menu_wrapper {
+    padding-top: 20px;
+  }
+  .location_wrapper i {
+    font-size: 0.8em;
+  }
+  .operation li {
+    height: 25px;
+  }
+  .arrow {
+    position: relative;
+    right: 5px;
+  }
 }
+
 /*tablette*/
 
 @media screen and (min-width: 768px) {
@@ -772,6 +798,7 @@ footer a:hover {
     font-size: 2em;
   }
 }
+
 /*desktop*/
 @media screen and (min-width: 1440px) {
   .operation ol li {
