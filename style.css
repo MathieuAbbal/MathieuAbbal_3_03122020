@@ -407,7 +407,9 @@ header {
 .operation li:hover i {
   color: var(--primary-color);
 }
-
+.operation ol li {
+  font-size: 0.8em;
+}
 /*restaurant*/
 .restaurant {
   display: flex;
@@ -517,7 +519,7 @@ header {
   align-items: center;
   font-size: 1.8em;
   font-weight: 600;
-  margin: 30px;
+  margin: 15px;
   font-family: "shrikhand", cursive;
 }
 .card_choice {
@@ -672,13 +674,47 @@ footer a:hover {
   padding-right: 18px;
 }
 /*breakpoints*/
+@media only screen and (max-width: 440px) {
+  .btn_menu {
+    width: 200px;
+  }
+  .title h1 {
+    font-size: 0.8em;
+  }
+  .like {
+    font-size: 0.5em;
+    padding-bottom: 20px;
+    margin-right: 5px;
+  }
+  .title .like {
+    padding-bottom: 2px;
+  }
+  .restaurant article {
+    min-width: 200px;
+    max-height: 190px;
+  }
+  .restaurant figure span {
+    font-size: 0.5em;
+    right: 20px;
+    top: 30px;
+    padding: 10px;
+  }
+  .figc p {
+    padding-bottom: 30px;
+  }
+  footer li {
+    font-size: 1em;
+  }
+
+  .operation ol li {
+    font-size: 0.7em;
+  }
+}
 @media only screen and (max-width: 767px) {
   .restaurant figure img {
     height: 150px;
   }
-  .operation ol li {
-    font-size: 0.8em;
-  }
+
   .operation li i {
     margin: 16px;
   }
@@ -689,18 +725,13 @@ footer a:hover {
   .btn a {
     font-size: 1em;
   }
-  .restaurant article {
-    max-height: 290px;
-  }
   .title {
-    font-size: 1.3em;
+    font-size: 1.6em;
   }
   .menu_wrapper h3 {
     font-size: 0.9em;
   }
-  .title h1 {
-    font-size: 0.8em;
-  }
+
   .coment {
     font-size: 0.8em;
   }
@@ -720,7 +751,7 @@ footer a:hover {
     font-size: 1em;
   }
   .title .like {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   .menu h2::after {
     width: 35px;
@@ -752,6 +783,7 @@ footer a:hover {
   }
   .operation ol li {
     margin: 32px;
+    font-size: 0.8em;
   }
   .photo {
     max-height: 400px;
@@ -795,6 +827,9 @@ footer a:hover {
     font-size: 1.6em;
   }
   .heading h1 {
+    font-size: 2em;
+  }
+  .title {
     font-size: 2em;
   }
 }
