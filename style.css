@@ -413,7 +413,7 @@ header {
   color: var(--primary-color);
 }
 .operation ol li {
-  font-size: 0.8em;
+// font-size: 0.8em;
 }
 /*restaurant*/
 .restaurant {
@@ -712,7 +712,7 @@ footer a:hover {
   }
 
   .operation ol li {
-    font-size: 0.7em;
+   // font-size: 0.9em;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -791,7 +791,7 @@ footer a:hover {
   }
   .operation ol li {
     margin: 32px;
-    font-size: 0.8em;
+  //  font-size: 0.8em;
   }
   .photo {
     max-height: 400px;
@@ -813,7 +813,7 @@ footer a:hover {
 @media screen and (min-width: 1024px) {
   .operation ol li {
     flex: 1;
-    font-size: 0.85em;
+  //  font-size: 0.85em;
     font-weight: bold;
   }
   .restaurant {
@@ -845,7 +845,7 @@ footer a:hover {
 /*desktop*/
 @media screen and (min-width: 1440px) {
   .operation ol li {
-    font-size: 1em;
+  //  font-size: 1em;
   }
   .content_wrapper,
   .main_menu {
