@@ -679,7 +679,7 @@ footer a:hover {
   padding-right: 18px;
 }
 /*breakpoints*/
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 400px) {
   .btn_menu {
     width: 200px;
   }
@@ -712,7 +712,7 @@ footer a:hover {
   }
 
   .operation ol li {
-   // font-size: 0.9em;
+    font-size: 0.95em;
   }
 }
 @media only screen and (max-width: 767px) {
