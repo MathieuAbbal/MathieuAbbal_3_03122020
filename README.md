@@ -1,8 +1,6 @@
 
 <img width="196" alt="ohmyfood" src="https://user-images.githubusercontent.com/72860893/101911434-a3097e00-3bc0-11eb-8e04-51082d8c2684.png">
 
-Bienvenue, je vous présente mon troisième projet de la formation de développeur Web chez **OpenClassrooms**.  
-
 # Scénario  
 
 Je viens d’être recruté chez Ohmyfood!, en tant que développeur junior.  
